@@ -1,0 +1,27 @@
+                                           views.py
+from django.http import HttpResponse 
+
+def home(request):
+    return HttpResponse("Welcome to the world of Avinandan Khanda")
+
+def menu(request):
+    return HttpResponse("it's my web-site")
+
+-----------------------------------------------------------------------------------------------------------
+
+
+from django.urls import path 
+from . import views
+urlpatterns= [
+    path("",views.home,name="home"),
+    path("",views.menu,name="menu")
+]
+-----------------------------------------------------------------------------------------------------------
+
+from django.contrib import admin
+from django.urls import path,include
+
+urlpatterns = [
+    path('jhargram/', admin.site.urls),
+    path('home/', include('creative.urls'))
+]

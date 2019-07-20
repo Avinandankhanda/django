@@ -7,7 +7,7 @@ Django\testing>python manage.py runserver
 Django\testing>python manage.py  migrate
 Dhango\testing>python manage.py creatsuperuser 
 
---------------------------------------------------
+--------------------------------------------------------------------------------------
 
         HOW TO INSTALL VIRTUALENV
 
