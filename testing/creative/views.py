@@ -5,3 +5,5 @@ def home(request):
 
 def menu(request):
     return HttpResponse("it's my web-site")
+def new(request):
+    return HttpResponse("no body can see it")
