@@ -13,7 +13,7 @@ Dhango\testing>python manage.py creatsuperuser
 
 pip install virtualenv
 virtualenv venv
-cd venv/scripts
+cd venv-- cd scripts
 activate
 cd../..
 pip install django
