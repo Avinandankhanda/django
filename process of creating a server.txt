@@ -18,3 +18,7 @@ activate
 cd../..
 pip install django
 django-admin startproject 
+
+python manage.py  makemigrations
+python manage.py  migrate
+
